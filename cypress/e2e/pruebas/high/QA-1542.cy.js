@@ -7,7 +7,7 @@ const video = 'test.mp4'
 
 
 
-describe('Test QA-1542	Recepciones_Detalle del pedido_Información general_Iniciar recepción_Pestaña Estado del vehículo_Añadir vídeo_Añadir intervenciones', () => {
+describe('Test QA-1542', () => {
 
 
     before(() => {
