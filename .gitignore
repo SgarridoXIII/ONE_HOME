@@ -1,8 +1,63 @@
-node_modules/
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/info.txt
+/node_modules
+/cypress/results/*
+/cypress/reports/*
+/cypress/downloads/*
+/cypress/screenshots/*
+/cypress/videos/*
+*.png
 *.mp4
-*.jpg
 
-e2e/cucumber/
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
 
-cypress/videos/
-cypress/reports/
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+package-lock.json
+
+# IDE - VSCode
+/.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+/.scannerwork
+
+# Compodoc
+/documentation
+
+#package-lock.json
+package-lock.json
+./package-lock.json
