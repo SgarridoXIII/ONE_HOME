@@ -1,0 +1,8 @@
+node_modules/
+*.mp4
+*.jpg
+
+e2e/cucumber/
+
+cypress/videos/
+cypress/reports/
